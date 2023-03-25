@@ -1,36 +1,7 @@
-/*
-* Box Theme
-* Created by : Ahmed Eissa
-* website : www.ahmedessa.net
-* behance : https://www.behance.net/3essa
-*/
 
-
-/* Table of Content
-==================================================
-	- Google fonts & font family -
-	- General -
-    - typography -
-    - Preloader -
-	- Header -
-    - box intro section -
-    - Portfoilo section -
-    - Footer -
-    - About page -
-    - Services page -
-    - contact page -
-    - Portfolio single page -
-    - Responsive media queries -
-*/
-
-
-/* Google fonts & font family
-==================================================*/
 
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700);
 
-/* General
-==================================================*/
 
 html,
 body {
@@ -81,8 +52,7 @@ a {
 }
 
 
-/* typography
-==================================================*/
+
 
 h1 {
     color: #393939;
@@ -99,8 +69,7 @@ h5 {
 }
 
 
-/* preloader
-==================================================*/
+
 
 #preloader {
     position: fixed;
@@ -109,9 +78,9 @@ h5 {
     right: 0;
     bottom: 0;
     background-color: #f5f5f5;
-    /* change if the mask should be a color other than white */
+   
     z-index: 1000;
-    /* makes sure it stays on top */
+    
 }
 
 .pre-container {
@@ -174,8 +143,6 @@ h5 {
 }
 
 
-/* headr
-==================================================*/
 
 .box-header {
     position: absolute;
@@ -418,8 +385,7 @@ h5 {
 }
 
 
-/* box-intro
-==================================================*/
+
 
 .box-intro {
     text-align: center;
@@ -525,7 +491,7 @@ b i:last-child {
 }
 
 
-/* text rotate */
+
 
 .box-headline {
     font-size: 130px;
@@ -682,8 +648,7 @@ b i:last-child {
 }
 
 
-/* portfolio section
-==================================================*/
+
 
 .portfolio .categories-grid span {
     font-size: 30px;
@@ -820,8 +785,7 @@ b i:last-child {
 }
 
 
-/* footer
-==================================================*/
+
 
 footer {
     padding: 30px 0;
@@ -839,8 +803,7 @@ footer img {
 }
 
 
-/* backto top
-==================================================*/
+
 
 .cd-top {
     display: inline-block;
@@ -885,8 +848,7 @@ footer img {
 }
 
 
-/* About page
-==================================================*/
+
 
 .top-bar {
     color: #333;
@@ -947,8 +909,7 @@ footer img {
 }
 
 
-/* Services page
-==================================================*/
+
 
 .size-50 {
     font-size: 50px;
@@ -963,8 +924,6 @@ footer img {
 }
 
 
-/* contact page
-==================================================*/
 
 .details-text i {
     margin-right: 10px;
@@ -1093,8 +1052,7 @@ textarea:focus {
 }
 
 
-/* single project page
-==================================================*/
+
 
 .cat-ul {
     padding-left: 0;
@@ -1107,8 +1065,6 @@ textarea:focus {
 }
 
 
-/* Responsive media queries
-==================================================*/
 
 @media (max-width: 991px) {
     .portfolio .categories-grid span {
